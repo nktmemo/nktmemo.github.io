@@ -52,9 +52,7 @@ itr=idx[:ntr]
 ite=idx[ntr:]
 
 param_grid={"gamma":np.logspace(-2,0,9)}
-grid=GridSearchCV(
-RbfModelWrapper(LogisticRegression()),
-param_grid=param_grid)
+grid=GridSearchCV(RbfModelWrapper(LogisticRegression()),param_grid=param_grid)
 grid.fit(X[itr],y[itr])
 clf=grid.best_estimator_
 print "accuracy:",clf.score(X[ite],y[ite])
