@@ -21,3 +21,7 @@ github_username:  jekyll
 markdown: kramdown
 #markdown: redcarpet
 
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-47154979-3'
