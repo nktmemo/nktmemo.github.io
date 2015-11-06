@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Dimensionality Reduction and Metric Learning"
+date:   2015-11-05 21:16:21 +0900
+categories: jekyll update
+---
+# Dimensionality Reduction
+$$\boldsymbol{x} \in \mathbb{R}^d, \boldsymbol{B} \in \mathbb{R}^{m \times d}$$
+
+\\[
+	\boldsymbol{z} = \boldsymbol{B}\boldsymbol{x}
+\\]
+
+pros:
+
+- analytic solution
+- no P.S.D. constraint
+
+cons:
+
+- choosing $$m$$ is difficult
+
+# Metric Learning
+$$ \boldsymbol{A} \in \mathbb{S}_{+}^{d \times d} $$
+\\[
+	d_{\boldsymbol{A}}(\boldsymbol{x},\boldsymbol{x}')^2 = (\boldsymbol{x}-\boldsymbol{x}')^T \boldsymbol{A} (\boldsymbol{x}-\boldsymbol{x}')
+\\]
+
+pros:
+
+- $$m$$ is automatically determined
+
+cons:
+
+- solved by iterative methods, no analytic solution. 
