@@ -22,6 +22,8 @@ markdown: kramdown
 
 #highlighter: rouge
 
+comments: true
+
 analytics :
   provider : google
   google :

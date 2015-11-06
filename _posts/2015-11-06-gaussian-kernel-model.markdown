@@ -88,3 +88,4 @@ accuracy: 1.0
 ![image name]({{nktmemo.github.io}}/assets/rbfmodel_demo.png)
 
 [rbfmodel_wrapper.py]: https://gist.github.com/nkt1546789/e41199340f7a42c515be
+
