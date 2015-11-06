@@ -18,14 +18,3 @@ github_username:  nkt1546789
 
 # Build settings
 markdown: kramdown
-#markdown: redcarpet
-
-#highlighter: rouge
-
-comments: true
-
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-47154979-3'
-
