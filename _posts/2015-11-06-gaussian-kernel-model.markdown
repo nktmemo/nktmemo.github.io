@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RBF (Gaussian) Kernel Model"
+title:  "A wrapper class of RBF (Gaussian) Kernel Model for scikit-learn's classifiers"
 date:  2015-11-06 15:12:11 +0900
 categories: jekyll update
 ---
