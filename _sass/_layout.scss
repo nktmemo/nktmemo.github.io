@@ -191,6 +191,10 @@
 }
 
 // Page Content add:hrt
+.article-body{
+  padding: 0;
+  margin: 0;
+}
 .article-body:after{
   content: "";
   clear: both;
@@ -199,13 +203,12 @@
 .article-text{
     float: left;
     width: 610px;
-    // background-color: rgb(228, 68, 47);
 }
 .article-image{
   float: right;
   width: 115px;
   height: 115px;
-  // background-color: rgb(2, 110, 250);
+  vertical-align: bottom;
 }
 
 
