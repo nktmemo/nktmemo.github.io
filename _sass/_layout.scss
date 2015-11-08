@@ -180,6 +180,16 @@
     }
 }
 
+@media screen and (max-width : 414px){
+  .article-text h2 .post-link{font-size: 16px;}
+}
+@media screen and (min-width : 415px){
+  .article-text h2 .post-link{font-size: 22px;}
+}
+@media screen and (min-width : 1024px) {
+  .article-text h2 .post-link{font-size: 26px;}
+}
+
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
