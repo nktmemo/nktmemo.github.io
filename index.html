@@ -9,11 +9,15 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <div class="article-body">
+          <div class="article-text">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          </div>
+          <div class="article-image">
+            <img src="assets/test.png" alt="">
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>

@@ -93,7 +93,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid rgb(92, 94, 75);
     padding: $spacing-unit 0;
 }
 
@@ -176,6 +176,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        border-bottom: 1px dotted rgb(92, 94, 75);
     }
 }
 
@@ -189,6 +190,22 @@
     font-size: 24px;
 }
 
+// Page Content add:hrt
+.article-body:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.article-text{
+    float: left;
+    width: 610px;
+    // background-color: rgb(228, 68, 47);
+}
+.article-image{
+  float: right;
+  width: 115px;
+  // background-color: rgb(2, 110, 250);
+}
 
 
 /**
