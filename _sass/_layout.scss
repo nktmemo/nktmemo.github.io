@@ -192,8 +192,7 @@
 
 // Page Content add:hrt
 .article-body{
-  padding: 0;
-  margin: 0;
+  width: 100%;
 }
 .article-body:after{
   content: "";
@@ -202,12 +201,13 @@
 }
 .article-text{
     float: left;
-    width: 610px;
+    width: 70%;
 }
 .article-image{
   float: right;
-  width: 115px;
-  height: 115px;
+  width: 30%;
+  height: 99%;
+  padding-bottom: 1%;
   vertical-align: bottom;
 }
 
@@ -260,7 +260,6 @@
 // posts-top
 .posts-top{
   text-align: right;
-  margin-right: 200px;
 }
 .posts-top a{
   text-decoration: none;
