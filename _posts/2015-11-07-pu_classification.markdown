@@ -2,6 +2,7 @@
 layout: post
 title:  "A Wrapper Class of PU classification for scikit-learn's Probabilistic Classifiers"
 date: 2015-11-07 17:23:19 +0900
+image: assets/result_of_puclassification.png
 categories: jekyll update
 ---
 **Notations** :  
