@@ -5,7 +5,7 @@
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: rgb(92, 94, 75);
+    background-color: $home-color;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -17,7 +17,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: rgb(228, 228, 228);
+    color: $home-text-color;
 }
 
 .site-nav {
@@ -29,7 +29,7 @@
     }
 
     .page-link {
-        color: rgb(228, 228, 228);
+        color: $home-text-color;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the last one
@@ -42,7 +42,7 @@
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
-        background-color: rgb(92, 94, 75);
+        background-color: $home-color;
         border-radius: 5px;
         text-align: right;
 
@@ -60,7 +60,7 @@
                 height: 15px;
 
                 path {
-                    fill: rgb(228, 228, 228);
+                    fill: $home-text-color;
                 }
             }
         }
@@ -93,7 +93,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid rgb(92, 94, 75);
+    border-top: 1px solid $home-color;
     padding: $spacing-unit 0;
 }
 
@@ -176,7 +176,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        border-bottom: 1px dotted rgb(92, 94, 75);
+        border-bottom: 1px dotted $home-color;
     }
 }
 
@@ -219,7 +219,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    border-left: 5px solid rgb(187, 156, 125);
+    border-left: 5px solid $post-title-color;
     padding-left: 15px;
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -252,4 +252,16 @@
             font-size: 18px;
         }
     }
+}
+// posts-top
+.posts-top{
+  text-align: right;
+  margin-right: 200px;
+}
+.posts-top a{
+  text-decoration: none;
+  background-image: url("../assets/poststop.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 10px;
 }
