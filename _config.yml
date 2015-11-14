@@ -18,3 +18,4 @@ github_username:  nkt1546789
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
